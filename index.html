@@ -17,7 +17,7 @@
   <meta name="description" content="Glowtoners blog">	
   
 
-  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="generator" content="Hugo 0.40.3" />
 
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -26,16 +26,16 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   
-  <link href="css/animate.css" rel="stylesheet">
+  <link href="http://glowtown.iocss/animate.css" rel="stylesheet">
 
   
   
-    <link href="css/style.violet.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="http://glowtown.iocss/style.turquoise.css" rel="stylesheet" id="theme-stylesheet">
   
 
 
   
-  <link href="css/custom.css" rel="stylesheet">
+  <link href="http://glowtown.iocss/custom.css" rel="stylesheet">
 
   
   
@@ -46,14 +46,14 @@
   
 
   
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="http://glowtown.ioimg/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://glowtown.ioimg/apple-touch-icon.png" />
   
 
-  <link href="css/owl.carousel.css" rel="stylesheet">
-  <link href="css/owl.theme.css" rel="stylesheet">
+  <link href="http://glowtown.iocss/owl.carousel.css" rel="stylesheet">
+  <link href="http://glowtown.iocss/owl.theme.css" rel="stylesheet">
 
-  <link rel="alternate" href="https://glowtown.io/index.xml" type="application/rss+xml" title="Glow Town Studio">
+  <link rel="alternate" href="http://glowtown.io/index.xml" type="application/rss+xml" title="Glow Town Studio">
 
   
   <meta property="og:title" content="Glow Town Studio" />
@@ -79,8 +79,9 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="https://glowtown.io/">
-                    
+                <a class="navbar-brand home" href="http://glowtown.io">
+                    <img src="http://glowtown.ioimg/logo.png" alt="Glow Town Studio logo" class="hidden-xs hidden-sm">
+                    <img src="http://glowtown.ioimg/logo-small.png" alt="Glow Town Studio logo" class="visible-xs visible-sm">
                     <span class="sr-only">Glow Town Studio - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
@@ -98,6 +99,24 @@
                   <li class="dropdown">
                     
                     <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
                     
                   </li>
                   
@@ -144,11 +163,35 @@
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-5 right">
-                            <h1>Find us on Google play and App Store</h1>
-                            <a href="https://play.google.com/store/apps/developer?id=GlowTown+Studio"><p><img src="img/play badge.png" height="77" width="200"/></p></a>
+                            <h1>Games for the entire family, parents and children!</h1>
+                            <img class="gray-out" src="img/appstore.png" height="77" width="200"/> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.glowtown.monsters.balls"> <img src="img/play badge.png" height="77" width="200"/> </a>
                         </div>
                         <div class="col-sm-7">
-                            <img class="img-responsive" src="" alt="">
+                            <img class="img-responsive" src="img/carousel/monster_phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-5 right">
+                            <h1>Neon inspired brick breaker game</h1>
+                            <img class="gray-out" src="img/appstore.png" height="77" width="200"/> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.glowtown.neon.glow.bricks"> <img src="img/play badge.png" height="77" width="200"/> </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <img class="img-responsive" src="img/carousel/neon_phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-5 right">
+                            <h1>Beautiful and simple Crypto tracking app</h1>
+                            <img class="gray-out" src="img/appstore.png" height="77" width="200"/> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.datract.cryptohodler.pro"> <img src="img/play badge.png" height="77" width="200"/> </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <img class="img-responsive" src="img/carousel/crypto_phone.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -166,7 +209,7 @@
         
 
 
-<section class="bar background-white">
+<section class="bar background-white" style="padding: 0">
     <div class="container">
         
 		
@@ -176,22 +219,10 @@
 				<div class="col-md-4">
                     <div class="box-simple">
                         <div class="icon">
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                        <h3>Simple</h3>
-                        <p>We aim to create self explainatory games, simplicity is key.</p>
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
                             <i class="fa fa-print"></i>
                         </div>
                         <h3>Fair Ads</h3>
-                        <p>We do not always use ads, when we do we try to make a fair use of them, the priority is not to annoy the user.</p>
+                        <p>We do not always use ads and when we do we try our best to make a fair use of them, your privacy is assured.</p>
                     </div>
                 </div>
 		
@@ -203,11 +234,26 @@
                             <i class="fa fa-globe"></i>
                         </div>
                         <h3>Fun!</h3>
-                        <p>Our games are fun, entretaining and family friendly.</p>
+                        <p>All our games are desgined to be played by the entire family, they are safe and fun!</p>
                     </div>
                 </div>
 		
-			</div>
+        
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>Simple</h3>
+                        <p>We believe that a game that you have to explain is not a good one. All our games are simple and intuitive</p>
+                    </div>
+                </div>
+		
+            </div>
+            <p class="text-center">
+                <a href="/faq/" class="btn btn-template-main btn-lg">Checkout GlowTown's philosophy</a>
+            </p>
 		</div>
 		
         
@@ -221,14 +267,292 @@
         
 
 
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>Comments in the stores</h2>
+                </div>
+
+                <p class="lead">
+                  See what the users playing our games say
+                </p>
+
+                
+
+                <ul class="owl-carousel testimonials same-height-row">
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>Amazing app! This is by far the best app for tracking your cryptocurrency Investments I found. The added widget that displays your current holding value is great! Glad I was able to support the makers of this wonderful app by getting the pro version! I hope they continue to improve.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://lh3.googleusercontent.com/-1BBySRBVJ_M/AAAAAAAAAAI/AAAAAAAAAHA/vPq4OUY1Qvw/s96-c-rw/photo.jpg">
+                                    <h5>Justin Lavi</h5>
+                                    <p>Happy user</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>It&rsquo;s like a bubble shooter combined with arkanoid.Very interesting concept. It&rsquo;s a very addictive brick breaker game..</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://lh3.googleusercontent.com/-P0AFQTvRl3E/AAAAAAAAAAI/AAAAAAAAALQ/mhx9uYerTls/s48-c/photo.jpg">
+                                    <h5>Belia Ramos</h5>
+                                    <p>Happy addicted user</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>My children are really addicted to this balls game, it seems that they took a liking into these friendly monsters. Perfect for when I have to prepare the lunch.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="http://glowtown.io/img/testimonials/person-3.png">
+                                    <h5>Lisbeth Wu</h5>
+                                    <p>Awesome mom</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>Even with my phone being more than 3 years old it runs smoothly.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="https://lh3.googleusercontent.com/-VtAlTjxTuaA/AAAAAAAAAAI/AAAAAAAAKlU/ldDqDasRInA/s96-c-rw/photo.jpg">
+                                    <h5>Adrián Norte Fernández</h5>
+                                    <p>Old phone user</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 
 
         
 
+<section class="bar background-image-fixed-2 no-mb color-white text-center">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="icon icon-lg"><i class="fa fa-file-code-o"></i>
+                </div>
+                <h3 class="text-uppercase">Do you want to see all our games and apps?</h3>
+                <p class="lead">Checkout our pages in each STORE and discover all our games!</p>
+                <p class="text-center">
+                    <a href="https://play.google.com/store/apps/developer?id=GlowTown&#43;Studio" class="btn btn-template-transparent-black btn-lg">Google play</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 
 
         
+
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>From our blog</h2>
+            </div>
+
+            <p class="lead">
+              If you want to keep up to day with what we do at GlowTown checkout our blog. We announce releases, sales and all bunch of stuff!
+            </p>
+
+            
+
+            <div class="row">
+
+                
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image" style="overflow:hidden">
+                                
+                                <img src="http://glowtown.ioimg/banners/ionic.png" class="img-responsive" alt="" >
+                                
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="http://glowtown.io/blog/2018/03/12/ionic-balls/" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4><a href="http://glowtown.io/blog/2018/03/12/ionic-balls/">Ionic Balls - Neon Glow Brick Breaker</a></h4>
+                            <p class="author-category">
+                            
+                            on 12, March, 2018
+                            </p>
+                            <p class="intro">Introduction After working on the Family Friendly version of Balls and Bricks we couldn&rsquo;t help ourselves from creating one more skin and probably the last one.
+We have been experimenting with neon/glowing techniques (after all our studio is called Glow Town&hellip;) and we couldn&rsquo;t resists the temptation of creating a version of our first game using these effects!
+The Game! The game is exactly like the first version but now instead of boring colors the game is full of effects that accomplish a futuristic/space/glowing feeling.</p>
+                            <p class="read-more">
+                              <a href="http://glowtown.io/blog/2018/03/12/ionic-balls/" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image" style="overflow:hidden">
+                                
+                                <img src="http://glowtown.ioimg/banners/monsters.png" class="img-responsive" alt="" >
+                                
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="http://glowtown.io/blog/2018/03/09/monster-balls/" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4><a href="http://glowtown.io/blog/2018/03/09/monster-balls/">Family firendly Monter balls!</a></h4>
+                            <p class="author-category">
+                            
+                            on 9, March, 2018
+                            </p>
+                            <p class="intro">Introduction As you can see pretty much everywhere in our website we really want to produce games that can be enjoy by the entire family. Not only our content has to be safe for everybody but additionally we want to appeal to everybody.
+Because of this, we have been working hard to create a new skin for our first game Balls and Bricks designed specially to appeal children of any age (even grown ups children like ourselves!</p>
+                            <p class="read-more">
+                              <a href="http://glowtown.io/blog/2018/03/09/monster-balls/" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image" style="overflow:hidden">
+                                
+                                <img src="http://glowtown.ioimg/banners/balls.png" class="img-responsive" alt="" >
+                                
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="http://glowtown.io/blog/2018/02/21/balls-bricks-game/" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4><a href="http://glowtown.io/blog/2018/02/21/balls-bricks-game/">Releasing Balls &amp; Bricks Classic: Bricks Breaker!</a></h4>
+                            <p class="author-category">
+                            
+                            on 21, February, 2018
+                            </p>
+                            <p class="intro">Introduction When you start a new studio some times the toughest thing to do is to decide where to start from. We had to pick which engine to use (We went with Unity) and what to build with it first. This time around we had no doubts though!
+Two months ago we where all super hooked to this game that is some sort of a mix between breakout and puzzle bubble.</p>
+                            <p class="read-more">
+                              <a href="http://glowtown.io/blog/2018/02/21/balls-bricks-game/" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image" style="overflow:hidden">
+                                
+                                <img src="http://glowtown.ioimg/banners/crypto.jpg" class="img-responsive" alt="" >
+                                
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="http://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4><a href="http://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/">Releasing crypto hodler!</a></h4>
+                            <p class="author-category">
+                            
+                            on 13, December, 2017
+                            </p>
+                            <p class="intro">Introduction Our team loves crypto and we were not happy with the current price tracking applications available so we&rsquo;ve built our own!
+We took this as a weekend challenge and this is the result, a small, simple and &ldquo;always on&rdquo; application that sits the entire day as a notification with the current amount of FIAT (Eurs, Dollars, etc&hellip;) you have invested so you can easily peak how your savings are doing.</p>
+                            <p class="read-more">
+                              <a href="http://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+
+            </div>
+            
+
+            
+
+        </div>
+    </div>
+    
+</section>
+
 
 
 
@@ -255,7 +579,54 @@
 
         <div class="col-md-4 col-sm-6">
 
-              
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://glowtown.io/blog/2018/03/12/ionic-balls/">
+                          
+                            <img src="http://glowtown.ioimg/banners/ionic.png" class="img-responsive" alt="Ionic Balls - Neon Glow Brick Breaker">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://glowtown.io/blog/2018/03/12/ionic-balls/">Ionic Balls - Neon Glow Brick Breaker</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://glowtown.io/blog/2018/03/09/monster-balls/">
+                          
+                            <img src="http://glowtown.ioimg/banners/monsters.png" class="img-responsive" alt="Family firendly Monter balls!">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://glowtown.io/blog/2018/03/09/monster-balls/">Family firendly Monter balls!</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://glowtown.io/blog/2018/02/21/balls-bricks-game/">
+                          
+                            <img src="http://glowtown.ioimg/banners/balls.png" class="img-responsive" alt="Releasing Balls &amp; Bricks Classic: Bricks Breaker!">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://glowtown.io/blog/2018/02/21/balls-bricks-game/">Releasing Balls &amp; Bricks Classic: Bricks Breaker!</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
 
         </div>
         
@@ -273,7 +644,7 @@
       
 
 
-            
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -325,12 +696,12 @@
 
 <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
-<script src="js/hpneo.gmaps.js"></script>
-<script src="js/gmaps.init.js"></script>
-<script src="js/front.js"></script>
+<script src="http://glowtown.iojs/hpneo.gmaps.js"></script>
+<script src="http://glowtown.iojs/gmaps.init.js"></script>
+<script src="http://glowtown.iojs/front.js"></script>
 
 
-<script src="js/owl.carousel.min.js"></script>
+<script src="http://glowtown.iojs/owl.carousel.min.js"></script>
 
 
   </body>

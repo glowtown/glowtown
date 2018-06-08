@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on Glow Town Studio</title>
-    <link>http://glowtown.io/categories/apps/</link>
+    <link>https://glowtown.io/categories/apps/</link>
     <description>Recent content in Apps on Glow Town Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Mar 2018 08:27:00 +0200</lastBuildDate>
     
-	<atom:link href="http://glowtown.io/categories/apps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://glowtown.io/categories/apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ionic Balls - Neon Glow Brick Breaker</title>
-      <link>http://glowtown.io/blog/2018/03/12/ionic-balls/</link>
+      <link>https://glowtown.io/blog/2018/03/12/ionic-balls/</link>
       <pubDate>Mon, 12 Mar 2018 08:27:00 +0200</pubDate>
       
-      <guid>http://glowtown.io/blog/2018/03/12/ionic-balls/</guid>
+      <guid>https://glowtown.io/blog/2018/03/12/ionic-balls/</guid>
       <description>Introduction After working on the Family Friendly version of Balls and Bricks we couldn&amp;rsquo;t help ourselves from creating one more skin and probably the last one.
 We have been experimenting with neon/glowing techniques (after all our studio is called Glow Town&amp;hellip;) and we couldn&amp;rsquo;t resists the temptation of creating a version of our first game using these effects!
 The Game! The game is exactly like the first version but now instead of boring colors the game is full of effects that accomplish a futuristic/space/glowing feeling.</description>
@@ -24,30 +24,30 @@ The Game! The game is exactly like the first version but now instead of boring c
     
     <item>
       <title>Family firendly Monter balls!</title>
-      <link>http://glowtown.io/blog/2018/03/09/monster-balls/</link>
+      <link>https://glowtown.io/blog/2018/03/09/monster-balls/</link>
       <pubDate>Fri, 09 Mar 2018 12:34:00 +0200</pubDate>
       
-      <guid>http://glowtown.io/blog/2018/03/09/monster-balls/</guid>
+      <guid>https://glowtown.io/blog/2018/03/09/monster-balls/</guid>
       <description>Introduction As you can see pretty much everywhere in our website we really want to produce games that can be enjoy by the entire family. Not only our content has to be safe for everybody but additionally we want to appeal to everybody.
 Because of this, we have been working hard to create a new skin for our first game Balls and Bricks designed specially to appeal children of any age (even grown ups children like ourselves!</description>
     </item>
     
     <item>
       <title>Releasing Balls &amp; Bricks Classic: Bricks Breaker!</title>
-      <link>http://glowtown.io/blog/2018/02/21/balls-bricks-game/</link>
+      <link>https://glowtown.io/blog/2018/02/21/balls-bricks-game/</link>
       <pubDate>Wed, 21 Feb 2018 12:34:00 +0200</pubDate>
       
-      <guid>http://glowtown.io/blog/2018/02/21/balls-bricks-game/</guid>
+      <guid>https://glowtown.io/blog/2018/02/21/balls-bricks-game/</guid>
       <description>Introduction When you start a new studio some times the toughest thing to do is to decide where to start from. We had to pick which engine to use (We went with Unity) and what to build with it first. This time around we had no doubts though!
 Two months ago we where all super hooked to this game that is some sort of a mix between breakout and puzzle bubble.</description>
     </item>
     
     <item>
       <title>Releasing crypto hodler!</title>
-      <link>http://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/</link>
+      <link>https://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/</link>
       <pubDate>Wed, 13 Dec 2017 13:50:00 +0200</pubDate>
       
-      <guid>http://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/</guid>
+      <guid>https://glowtown.io/blog/2017/12/13/releasing-crypto-hodler/</guid>
       <description>Introduction Our team loves crypto and we were not happy with the current price tracking applications available so we&amp;rsquo;ve built our own!
 We took this as a weekend challenge and this is the result, a small, simple and &amp;ldquo;always on&amp;rdquo; application that sits the entire day as a notification with the current amount of FIAT (Eurs, Dollars, etc&amp;hellip;) you have invested so you can easily peak how your savings are doing.</description>
     </item>

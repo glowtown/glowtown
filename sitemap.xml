@@ -28,13 +28,13 @@
   </url>
   
   <url>
-    <loc>https://glowtown.io/categories/apps/</loc>
+    <loc>https://glowtown.io/tags/apps/</loc>
     <lastmod>2018-03-12T08:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://glowtown.io/tags/apps/</loc>
+    <loc>https://glowtown.io/categories/apps/</loc>
     <lastmod>2018-03-12T08:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -66,13 +66,13 @@
   </url>
   
   <url>
-    <loc>https://glowtown.io/categories/games/</loc>
+    <loc>https://glowtown.io/tags/games/</loc>
     <lastmod>2018-03-12T08:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://glowtown.io/tags/games/</loc>
+    <loc>https://glowtown.io/categories/games/</loc>
     <lastmod>2018-03-12T08:27:00+02:00</lastmod>
     <priority>0</priority>
   </url>
